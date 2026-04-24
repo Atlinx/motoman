@@ -1,5 +1,16 @@
+#!/bin/bash
+
+echo -e "\e[1;92mIgnoring all packages in robotiq/\n\e[0m"
+
+echo "Clearing existing CATKIN_IGNORE files"
+
+for dir in robotiq/*/
+do
+	dir=${dir%/}  # Remove trailing slash
+	rm -f "$dir/CATKIN_IGNORE"
+done
+
 for pkg in $(echo "
-	robotiq
 	robotiq_2f_140_gripper_visualization
 	robotiq_3f_gripper_articulated_msgs
 	robotiq_3f_gripper_control
@@ -8,7 +19,6 @@ for pkg in $(echo "
 	robotiq_3f_gripper_visualization
 	robotiq_ethercat
 	robotiq_ft_sensor
-	robotiq_modbus_rtu
 	robotiq_modbus_tcp
 	")
 do
