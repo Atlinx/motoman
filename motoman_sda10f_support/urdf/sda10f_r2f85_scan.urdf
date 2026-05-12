@@ -11,9 +11,6 @@
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/torso_base_link.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <geometry>
@@ -27,9 +24,6 @@
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/torso_link_b1.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -58,13 +52,10 @@
   <!-- end of joint list -->
   <link name="arm_left_link_1_s">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.5708 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_1_s.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -79,9 +70,6 @@
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_2_l.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -92,13 +80,10 @@
   </link>
   <link name="arm_left_link_3_e">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.5708 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_3_e.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -113,9 +98,6 @@
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_4_u.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -126,13 +108,10 @@
   </link>
   <link name="arm_left_link_5_r">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="-1.5708 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_5_r.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -147,9 +126,6 @@
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_6_b.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -160,12 +136,10 @@
   </link>
   <link name="arm_left_link_7_t">
     <visual>
+      <origin rpy="1.5708 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_left_link_7_t.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <geometry>
@@ -231,13 +205,10 @@
   <!-- end of joint list -->
   <link name="arm_right_link_1_s">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5708 0 3.14159" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_1_s.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -248,13 +219,10 @@
   </link>
   <link name="arm_right_link_2_l">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 3.14159" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_2_l.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -265,13 +233,10 @@
   </link>
   <link name="arm_right_link_3_e">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5708 0 3.14159" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_3_e.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -282,13 +247,10 @@
   </link>
   <link name="arm_right_link_4_u">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 3.14159" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_4_u.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -299,13 +261,10 @@
   </link>
   <link name="arm_right_link_5_r">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="1.5708 0 3.14159" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_5_r.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -316,13 +275,10 @@
   </link>
   <link name="arm_right_link_6_b">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin rpy="0 0 3.14159" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_6_b.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.99 0.99 0.99 1"/>
-      </material>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -333,12 +289,10 @@
   </link>
   <link name="arm_right_link_7_t">
     <visual>
+      <origin rpy="-1.5708 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://motoman_sda10f_support/meshes/sda10f/visual_scan/arm_right_link_7_t.obj"/>
       </geometry>
-      <material name="">
-        <color rgba="0.12941176470588237 0.14901960784313725 0.7490196078431373 1.0"/>
-      </material>
     </visual>
     <collision>
       <geometry>
